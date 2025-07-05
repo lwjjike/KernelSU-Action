@@ -1,12 +1,12 @@
 name: Check and Build
 
 env:
-  kernel_repository: PixelExperience-Devices/kernel_xiaomi_sdm845
-  kernel_branch: fourteen
-  device: dipper
+  kernel_repository: BenzoRom/kernel_google_redbull
+  kernel_branch: android12
+  device: redbull
   clang_version: r487747c
   defconfig: |
-    dipper_defconfig
+    redbull_defconfig
   kernel_patch: |
     backport-path-umount.patch
   kernelsu_patch: |
